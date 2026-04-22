@@ -5,6 +5,7 @@ import img4 from "./assets/4.png";
 import img5 from "./assets/5.png";
 import img6 from "./assets/6.png";
 import img7 from "./assets/7.png";
+import img8 from "./assets/img8.png";
 
 const data = [
   {
@@ -119,6 +120,18 @@ const data = [
     ],
     liveUrl: 'https://healthhero21.netlify.app/',
     githubUrl: 'https://github.com/souravjng/Healthhero'
+  },{
+    id: 8,
+    number: '8',
+    title: 'AppleMac',
+    subtitle: 'Framer ,a popular, AI-powered',
+    description:
+      'Framer is a popular, AI-powered, no-code website builder designed for creating professional, high-end, responsive websites directly in the browser.',
+    imageUrl: img8,
+    techStack: [
+      "Framer", "AI-powered", "no-code website builder ",
+    ],
+    liveUrl: 'https://valuable-area-710106.framer.app/',
   }
 ];
 
