@@ -5,7 +5,8 @@ import img4 from "./assets/4.png";
 import img5 from "./assets/5.png";
 import img6 from "./assets/6.png";
 import img7 from "./assets/7.png";
-import img8 from "./assets/img8.png";
+import img8 from "./assets/8.png";
+import img9 from "./assets/9.png";
 
 const data = [
   {
@@ -132,7 +133,34 @@ const data = [
       "Framer", "AI-powered", "no-code website builder ",
     ],
     liveUrl: 'https://valuable-area-710106.framer.app/',
-  }
+  },{
+  id: 9,
+  number: "9",
+  title: "LaundryFlow",
+  subtitle: "AI-First Laundry Order Management System",
+  description:
+    "LaundryFlow is a full-stack web app to manage laundry orders with real-time status tracking, dashboard analytics, and Excel export. It features a modern UI built with React, a Node.js backend, and supports order filtering, status updates, and seamless deployment.",
+  
+  imageUrl: img9, 
+
+  techStack: [
+    "react",
+    "vite",
+    "tailwind",
+    "axios",
+    "recharts",
+    "framer-motion",
+    "react-hot-toast",
+    "lucide-react",
+    "nodejs",
+    "express",
+    "cors",
+    "uuid"
+  ],
+
+  liveUrl: "https://laundry-system-183i0j51x-souravs-projects-51eeaa85.vercel.app/",
+  githubUrl: "https://github.com/souravjng/laundrySystem"
+}
 ];
 
 export default data;
